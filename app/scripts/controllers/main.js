@@ -8,10 +8,14 @@
  * Controller of the yoAngularTodoApp
  */
 angular.module('yoAngularTodoApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
+  .controller('MainCtrl', function ($scope) {
+    $scope.todos = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+    $scope.addTodo = function () {
+	  $scope.todos.push($scope.todo);
+	  $scope.todo = '';
+	};
   });

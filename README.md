@@ -14,3 +14,4 @@ Running `grunt test` will run the unit tests with karma.
 ## Continuous Integration
 
 * This project uses [Travis CI](https://travis-ci.org) for running tests on build and pull requests
+* [![Build Status](https://travis-ci.org/amrithyerramilli/yo-angular-todo.svg?branch=master)](https://travis-ci.org/amrithyerramilli/yo-angular-todo)
